@@ -1,40 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Text;
 
-namespace Variables
-
+namespace Prove_Varie
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name = "John";
-            string surname = "McCain";
-            Console.WriteLine("Hello " + name + " " + surname);
+            Console.WriteLine("Hello World!");
 
-            Console.WriteLine("Variables ");
-           
-            int myNum = 5;                  //intiger (whole number)
-            double mydouble = 5.5;          // floating point number
-            char myChar = 'J';              // character
-            string myString = "Abedini";    // string
-            bool myBool = true;            // boolean
-
-            Console.WriteLine(myNum + "\n" + mydouble + "\n" + myChar + "\n" + myString + "\n" + myBool);
-
-            Console.WriteLine("Implicit Casting");
-            int myInt = 9;                              
-            double myDouble = myInt;
-            Console.WriteLine(myInt + "\n" + myDouble);
-
-
-
-            
-
-
-           
-
-
-            Console.ReadKey();
+            string name = "Juli";
+            Console.WriteLine(name);
+          
+            string num = Console.ReadLine();
+            Console.WriteLine(num);
         }
     }
 }
