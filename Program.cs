@@ -1,38 +1,27 @@
 ﻿using System;
 
-namespace Variables
-
+namespace Booleans
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name = "John";
-            string surname = "McCain";
-            Console.WriteLine("Hello " + name + " " + surname);
+            // A boolean type is declared with the bool keyword and can only take the values true or false:
 
-            Console.WriteLine("Variables ");
-           
-            int myNum = 5;                  //intiger (whole number)
-            double mydouble = 5.5;          // floating point number
-            char myChar = 'J';              // character
-            string myString = "Abedini";    // string
-            bool myBool = true;            // boolean
+            bool isCSharpFun = true;
+            bool isFishTasty = false;
 
-            Console.WriteLine(myNum + "\n" + mydouble + "\n" + myChar + "\n" + myString + "\n" + myBool);
-
-            Console.WriteLine("Implicit Casting");
-            int myInt = 9;                              
-            double myDouble = myInt;
-            Console.WriteLine(myInt + "\n" + myDouble);
-
-
-
+            Console.WriteLine(isCSharpFun);
+            Console.WriteLine(isFishTasty);
             
+            int x = 82;
+            int y = 56;
+            Console.WriteLine(x < y); // returns False, because 82 is higher than 56
 
+            int a = 12;
+            Console.WriteLine(a == 12); // returns True, because the value of x is equal to 12
 
-           
-
+            Console.WriteLine(10 == 15); // returns False, because 10 is not equal to 15
 
             Console.ReadKey();
         }
